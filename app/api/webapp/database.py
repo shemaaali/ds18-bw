@@ -25,7 +25,7 @@ print("connection:", conn)
 cur = conn.cursor()
 print("cursor:", cur)
 
-cur.execute('''CREATE TABLE Iairbnb_table(Zipcode int,
+cur.execute('''CREATE TABLE airbnb_table(Zipcode int,
  Square Feet decimal, 
  Bedrooms decimal,
  Bathrooms decimal,
