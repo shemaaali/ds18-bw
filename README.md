@@ -5,7 +5,7 @@
 Using historical booking data from AirBnB, AirBnB Optimal Price will allow a user to predict the trends for optimal pricing for their properties based on variables such as location, time of year and other considerations. The user will be able to manage multiple properties at different locations and be able to make adjustments to their expectations for booking, as well as what they should be charging.
 
 
-# DS Build Week scaffold
+## DS Build Week scaffold
 
 - [Big picture](#big-picture)
 - [Tech stack](#tech-stack)

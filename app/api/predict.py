@@ -29,8 +29,6 @@ router = APIRouter()
 
 class AirBnB(BaseModel):
     """Data model to parse & validate airbnb measurements"""
-    #Price: confloat(gt=85, lt=195)
-    #Bedrooms: confloat(gt=1, lt=6)
     {
     "userId":1,
     "name":"Chris",
