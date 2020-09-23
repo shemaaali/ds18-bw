@@ -5,16 +5,18 @@ from sqlalchemy.orm import Session
 
 from .import crud, models, schemas
 from .database import SessionLocal, engine
-from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
 
-from api import predict, viz
+#from fastapi.middleware.cors import CORSMiddleware
+#import uvicorn
+
+#from .api import predict, viz
+
 # Create the database tables
 # dependency tables
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
-app.include_router(predict.router)
+#app.include_router(predict.router)
 
 # Dependency
 def get_db():

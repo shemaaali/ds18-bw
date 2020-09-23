@@ -1,3 +1,10 @@
+## AirBnB Optimizing Price
+
+## ☝️ **Pitch**
+
+Using historical booking data from AirBnB, AirBnB Optimal Price will allow a user to predict the trends for optimal pricing for their properties based on variables such as location, time of year and other considerations. The user will be able to manage multiple properties at different locations and be able to make adjustments to their expectations for booking, as well as what they should be charging.
+
+
 # DS Build Week scaffold
 
 - [Big picture](#big-picture)
@@ -6,8 +13,8 @@
 - [File structure](#file-structure)
 - [More instructions](#more-instructions)
 - [Deploying to Heroku](#deploying-to-heroku)
-- [Example: Data visualization](#example-data-visualization)
-- [Example: Machine learning](#example-machine-learning)
+- [Data visualization](#example-data-visualization)
+- [Machine learning](#example-machine-learning)
 
 ## Big picture
 
@@ -39,7 +46,7 @@ You'll build and deploy a Data Science API. You'll work cross-functionally with 
 
 Clone the repo
 ```
-git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME.git
+git clone https://github.com/bw-airbnb-2/DS
 
 cd YOUR-REPO-NAME
 ```
