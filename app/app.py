@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
 from .api import predict, viz
+#from .api import database
 
 description = """
 Deploys a logistic regression model fit on the [Palmer AirBnB](https://raw.githubusercontent.com/bw-airbnb-2/DS/master/airbnb.csv) dataset.
@@ -20,6 +21,7 @@ app = FastAPI(
 
 app.include_router(predict.router)
 app.include_router(viz.router)
+#app.include_router(database.router)
 
 app.add_middleware(
     CORSMiddleware,
