@@ -65,7 +65,7 @@ lab==6.0
 Markdown==3.2.2
 MarkupSafe==1.1.1
 matplotlib==3.3.1
-mistune==0.8.4
+mistune==2.0.3
 mlxtend==0.17.3
 more-itertools==8.5.0
 murmurhash==1.0.2
